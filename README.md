@@ -28,16 +28,14 @@ Set your Shodan API key as an environment variable:
 export SHODAN_API_KEY=your_shodan_api_key
 ```
 
-Or use the console script (if installed):
+## Testing
+Test with Model Context Protocol Inspector:
 ```bash
-shodan-mcp
+npx @modelcontextprotocol/inspector uv run shodan-mcp
 ```
 
 ## Usage
-Run the MCP server:
+To add this in your MCP client:
 ```bash
-python main.py
+uv run shodan-mcp
 ```
-
-## License
-MIT
