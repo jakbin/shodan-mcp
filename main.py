@@ -73,5 +73,9 @@ def get_historical_data(ip: str):
     """Get historical scan data for an IP (premium access required)."""
     return api.host(ip, history=True)
 
+
+def main():
+    mcp.run(transport="stdio")
+
 if __name__ == "__main__":
-    mcp.run()
+    main()
