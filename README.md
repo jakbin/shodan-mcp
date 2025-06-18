@@ -17,9 +17,10 @@ A Model Context Protocol (MCP) toolkit for integrating Shodan's powerful search 
 - Python 3.7+
 - Shodan API key (set as the `SHODAN_API_KEY` environment variable)
 
+
 ## Installation
 ```bash
-pip install .
+pip install shodan-mcp
 ```
 
 ## Configuration
@@ -35,7 +36,7 @@ npx @modelcontextprotocol/inspector uv run shodan-mcp
 ```
 
 ## Usage
-To add this in your MCP client:
+Add this in your MCP client:
 ```bash
 uv run shodan-mcp
 ```
